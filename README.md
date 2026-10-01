@@ -30,6 +30,9 @@ The main objectives of this project are:
 
 ---
 
+
+<img width="1858" height="778" alt="image" src="https://github.com/user-attachments/assets/7685c07c-1986-4288-8d71-d26acaabe54b" />
+
 ## Tools and Technologies
 
 The project was developed using the following tools and techniques:
@@ -103,6 +106,5 @@ Calculation:
 
 ```text
 Total Sales = SUM(Sales)
-###Sales Revenue Dashboard with KPI Tracker
 
-<img width="1858" height="778" alt="image" src="https://github.com/user-attachments/assets/7685c07c-1986-4288-8d71-d26acaabe54b" />
+
