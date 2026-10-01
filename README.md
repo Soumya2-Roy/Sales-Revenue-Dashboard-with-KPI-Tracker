@@ -8,6 +8,8 @@ The dashboard brings together key performance indicators, sales and profit trend
 
 The project helps understand where sales are coming from, which areas generate profit, which customers contribute the most, and where profitability requires attention.
 
+The project uses Microsoft Excel to perform data preparation, KPI calculation, data aggregation, analysis, visualization, and dashboard development.
+
 ---
 
 ## Project Objectives
@@ -21,25 +23,39 @@ The main objectives of this project are:
 - Analyze state-level sales and profit performance.
 - Identify high-value and high-profit customers.
 - Analyze sub-category performance.
+- Identify strong and weak areas of business performance.
 - Create a clear Excel dashboard for management reporting.
 - Convert analytical findings into practical business recommendations.
+- Present the analysis through charts, KPI cards, and summary views.
 
 ---
 
 ## Tools and Technologies
 
+The project was developed using the following tools and techniques:
+
 - Microsoft Excel
-- Excel formulas and aggregation functions
-- Structured data analysis
+- Excel formulas
+- Data aggregation
 - KPI calculations
-- Charts and dashboard visualizations
-- Grouped analysis by time, geography, category, customer, and sub-category
+- Data cleaning and preparation
+- Grouped analysis
+- Time-based analysis
+- Category analysis
+- Sub-category analysis
+- State-level analysis
+- Customer-level analysis
+- Excel charts
+- Dashboard design
+- Business data visualization
 
 ---
 
 ## Dataset Overview
 
 The primary source for this project is the Sales Data sheet from the Excel workbook.
+
+The dataset contains transaction-level sales information that can be analyzed across time, customers, geography, categories, sub-categories, products, sales, quantity, and profit.
 
 | Metric | Value |
 |---|---:|
@@ -53,9 +69,11 @@ The primary source for this project is the Sales Data sheet from the Excel workb
 | Profit Margin | 12.5% |
 | Average Order Value | $229.91 |
 
-### Main Data Fields
+---
 
-The analysis uses the following fields:
+## Main Data Fields
+
+The analysis uses the following fields from the Sales Data sheet:
 
 - Order Date
 - Customer Name
@@ -67,43 +85,21 @@ The analysis uses the following fields:
 - Quantity
 - Profit
 
+These fields provide the foundation for calculating KPIs and performing business performance analysis.
+
 ---
 
 ## Key Performance Indicators
+
+The dashboard contains the following major KPIs.
 
 ### Total Sales
 
 **$2,296,919.70**
 
-Total Sales is calculated by summing all values in the Sales field.
+Total Sales represents the total value of sales generated across all transaction records.
 
-### Total Profit
-
-**$286,409.85**
-
-Total Profit is calculated by summing all values in the Profit field.
-
-### Total Orders
-
-**9,993**
-
-Total Orders represents the number of transaction records in the dataset.
-
-### Unique Customers
-
-**793**
-
-Unique Customers represents the number of distinct customers in the dataset.
-
-### Units Sold
-
-**37,871**
-
-Units Sold is calculated as the total quantity sold.
-
-### Average Order Value
-
-**$229.91**
+Calculation:
 
 ```text
-Average Order Value = Total Sales / Total Orders
+Total Sales = SUM(Sales)
